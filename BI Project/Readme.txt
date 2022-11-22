@@ -49,12 +49,12 @@ Screenshots- contains screenshots for the dashboards, data models and the Airflo
 
 Tools used and purpose:
 
-1. Oracle VM Virtual Box running Xubuntu- used to create a linux environment for running airflow.
+1. Oracle VM Virtual Box running Xubuntu- used to create a Linux environment for running airflow.
 2. MYSQL- creating ETL scripts
 3. Visual Paradigm Community Edition- data modeling
 4. Python (Mainly Pandas)- generate data and fill the OLTP database
 5. Airflow- pipeline creation and scheduling
-6. PowerBI- dashboards development
+6. Power BI- dashboards development
 
 
 
