@@ -3,7 +3,7 @@ Project Brief:
 Hello Everyone!
 
 I'd like to share this end to end project that covers the 3 main stages of the BI life cycle. Data modeling, ETL development
-and the dashboard design.
+and dashboard design.
 
 Before the data warehouse design phase, there must be atleast one data source (for example an OLTP system)
 So I designed an ERD that acts as the OLTP system database for a fictional electronics retail company
