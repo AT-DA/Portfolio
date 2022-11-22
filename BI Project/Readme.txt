@@ -2,8 +2,8 @@ Project Brief:
 
 Hello Everyone!
 
-This is a complete end to end BI project that covers the 3 main stages in the BI life cycle. Data modeling, ETL development
-and the dashboard as the visualization layer.
+I'd like to share this end to end BI project that covers the 3 main stages in the BI life cycle. Data modeling, ETL development
+and the dashboard design.
 
 Before the data warehouse design phase, there must be atleast one data source (for example an OLTP system)
 So I designed an ERD that acts as the OLTP system database for a fictional electronics retail company
@@ -11,10 +11,10 @@ that I made up based on some research and my limited experience. The ERD covers 
 and order management. Based on those 3 processes, 5 fact tables where created. The image named BI_Project_Galaxy_Schema
 in the folder screenshots is a result of combining the 5 fact tables with the conformed dimensions.
 
-After I created the ERD, python functions were created based on some business rules to generate and 
+After I designed the ERD, python functions were created based on some business rules to generate and 
 insert the data into the tables.
 
-When desiging the Datawarehouse, I applied the type 2 SCD concept to keep track of historical changes. Regarding the fact tables, 3/5 are of the type accumulating snapshot. Each one of the accumulating snaphot fact tables has a different criteria for completing the process pipeline. 2/5 of the fact tables are of the type periodic snapshot
+When desiging the Datawarehouse, I applied the type 2 SCD concept to keep track of historical changes. Regarding the fact tables, 3/5 are of the type accumulating snapshot. Each one of the accumulating snaphot fact tables has a different criteria for completing its process pipeline. 2/5 of the fact tables are of the type periodic snapshot
 
 SQL was mainy used to generate the ETL scripts that will load the data warehouse from the OLTP database.
 A separate stored procedure was created for each table to fill it in the datawarehouse.
