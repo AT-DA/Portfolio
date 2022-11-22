@@ -26,7 +26,7 @@ I highly recommend the book "The Data Warehouse Toolkit" by Ralph Kimball which 
 
 ***********************************************************************************************************************
 
-Project folder contents:
+Project folders contents:
 
 Visual Paradigm Data Modeling- contains the Visual Paradigm file for data modeling.
 
