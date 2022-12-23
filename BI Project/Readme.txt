@@ -7,7 +7,7 @@ and dashboard design.
 
 Before the data warehouse design phase, there must be atleast one data source (for example an OLTP system)
 So I designed an ERD that acts as the OLTP system database for a fictional electronics retail company
-that I made up based on some research and my limited experience. The ERD covers 3 main processes. Sales, purchasing
+that I made up based on some research and my experience. The ERD covers 3 main processes. Sales, purchasing
 and order management. Based on those 3 processes, 5 fact tables where created. The image named BI_Project_Galaxy_Schema
 in the folder screenshots is a result of combining the 5 fact tables with the conformed dimensions.
 
